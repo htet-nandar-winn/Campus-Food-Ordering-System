@@ -29,19 +29,19 @@ The system separates application responsibilities into different modules to impr
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| PHP | Backend development |
-| MySQL | Database management |
-| HTML5 | Web page structure |
-| CSS3 | Styling |
-| JavaScript | Frontend interactions |
-| Composer | PHP dependency management |
-| PHPMailer | Email functionality |
-| Google API Client | Google OAuth integration |
-| Dompdf | PDF receipt generation |
-| Apache | Local web server |
-| XAMPP | Local development environment |
+| Technology        | Purpose                       |
+| ----------------- | ----------------------------- |
+| PHP               | Backend development           |
+| MySQL             | Database management           |
+| HTML5             | Web page structure            |
+| CSS3              | Styling                       |
+| JavaScript        | Frontend interactions         |
+| Composer          | PHP dependency management     |
+| PHPMailer         | Email functionality           |
+| Google API Client | Google OAuth integration      |
+| Dompdf            | PDF receipt generation        |
+| Apache            | Local web server              |
+| XAMPP             | Local development environment |
 
 ## 🏗️ Project Structure
 
