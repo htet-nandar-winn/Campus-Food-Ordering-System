@@ -1,6 +1,8 @@
 # 🍔 Campus Food Ordering System
 
-A web-based food ordering and canteen management system designed for university students and campus food services. The system provides an online platform where customers can browse food items, manage shopping carts, place orders, and make payments.
+A web-based food ordering and canteen management system designed for university students and campus food services.
+
+The system provides an online platform where customers can browse food items, manage shopping carts, place orders, and make payments.
 
 Built with **PHP, MySQL, and Domain-Driven Design (DDD)** principles.
 
@@ -114,7 +116,7 @@ composer install
 
 ### 4. Set Up the Database
 
-1. Start Apache and MySQL from XAMPP Control Panel.
+1. Start Apache and MySQL from the XAMPP Control Panel.
 2. Open phpMyAdmin.
 3. Create a new database named:
 
@@ -122,12 +124,12 @@ composer install
 campus_food_ordering_system1
 ```
 
-4. Select the database.
+4. Select the newly created database.
 5. Import the `database1.sql` file.
 
 ### 5. Configure Database Connection
 
-Open:
+Open the following file:
 
 ```text
 inc/Database.php
@@ -135,11 +137,18 @@ inc/Database.php
 
 Update the database credentials according to your local MySQL configuration.
 
+```php
+private static string $host = '127.0.0.1';
+private static string $dbname = 'campus_food_ordering_system1';
+private static string $user = 'root';
+private static string $pass = 'your_mysql_password';
+```
+
 ### 6. Run the Project
 
 Place the project inside your XAMPP `htdocs` directory.
 
-Open your browser and visit:
+Start Apache and MySQL, then open your browser and visit:
 
 ```text
 http://localhost/Campus-Food-Ordering-System/Public/
@@ -148,10 +157,10 @@ http://localhost/Campus-Food-Ordering-System/Public/
 ## 📦 Requirements
 
 - PHP 8.0 or later (check Composer package requirements for the exact supported version).
-- MySQL or MariaDB
-- Apache Web Server
-- Composer
-- XAMPP
+- MySQL or MariaDB.
+- Apache Web Server.
+- Composer.
+- XAMPP.
 
 ## 🎯 Project Objectives
 
@@ -160,18 +169,13 @@ http://localhost/Campus-Food-Ordering-System/Public/
 - Improve order management and tracking.
 - Provide an organized platform for customers, staff, and administrators.
 - Apply modular software architecture principles.
+- Improve the maintainability and scalability of the application.
 
 ## 👩‍💻 Developer
 
 **Htet Nandar Winn**
 
 GitHub: [@htet-nandar-winn](https://github.com/htet-nandar-winn)
-
-## 📄 Acknowledgement
-
-Original repository: [JhunJhun2003/Campus-Food-Ordering-System](https://github.com/JhunJhun2003/Campus-Food-Ordering-System)
-
-This repository retains the original project's commit history and acknowledges its original developer.
 
 ---
 
