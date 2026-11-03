@@ -175,7 +175,7 @@ http://localhost/Campus-Food-Ordering-System/Public/
 
 **Htet Nandar Winn**
 
-GitHub: [@htet-nandar-winn](https://github.com/htet-nandar-winn)
+- **GitHub Profile:** [Htet Nandar Winn](https://github.com/htet-nandar-winn)
 
 ---
 
